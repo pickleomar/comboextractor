@@ -1,11 +1,9 @@
 # comboextractor.py
-This python script allows you to extract all the given combos from a text file 
-#
+A Python script that extracts email/password or username/password combinations from a text file. 
+The script processes each line, searching for `@` and `:` symbols to identify the format of the credentials and then outputs the parsed combinations into a new file.
 
-Given a textfile directory or just paste the content in the pastehere.txt the script then tries to extract every email:pass combo or even username:pass combo e.g[some radom bullshitsome radom imusingarchbtw@gmail.com:pass453 bullshitsome radom bullshitsome radom bullshit xxx@gmail.com:password123 some radom bullshit]
+## Features
+- Extracts **email:password** combinations.
+- Extracts **username:password** combinations.
+- Saves the results to a file (`combo.txt`).
 
-The script then will return xxx@gmail.com:password123 imusingarchbtw@gmail.com:pass453 in the combo.txt file
-
-ps. It doesnt require any library
-
-enjoy crackingheads
