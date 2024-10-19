@@ -101,7 +101,7 @@ def main():
         print('Wrong choice Try again :')
 directory=input('Insert your text file directory or just drag it here: ')
 if directory == '':
-    directory = 'accounts.txt'
+    directory = 'pastehere.txt'
 else:
     directory = directory.replace("'", '')
 main()
